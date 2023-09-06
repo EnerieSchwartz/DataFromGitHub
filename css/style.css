@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ================================ */
+
+body {
+  max-width: 425px;
+  background: #d4cdcd;
+  padding: 5px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+.main__container {
+  background: #eee;
+  width: 100%;
+  height: 600px;
+
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+
+  padding: 15px;
+  position: relative;
+}
+.promise-avatar-example {
+  width: 100%;
+
+  height: 320px;
+  border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -ms-border-radius: 30px 30px 0 0;
+  -o-border-radius: 30px 30px 0 0;
+
+  z-index: 2;
+}
+.discription__container {
+  width: 92%;
+  height: 300px;
+  background: #ddd;
+  top: 290px;
+  position: absolute;
+  z-index: 5;
+
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+  padding: 30px 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.userName {
+  color: #202020;
+  font-size: 30px;
+  text-align: center;
+
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.follow__button {
+  max-width: 150px;
+  margin-top: 20px;
+  background: #f0efef;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 7px 15px;
+  border: 1px solid #606060;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  font-weight: 300;
+  transition: 0.3s ease-in-out;
+}
+.statistics__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-top: 25px;
+}
+.statistics__item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistics__parameter {
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 15px;
+  letter-spacing: 1.5px;
+}
+.number {
+  color: #333;
+  font-size: 25px;
+  font-weight: 500;
+}
+.acc__name {
+  margin-top: 5px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+.par__text {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #8d8d8d;
+}
+/* } */
